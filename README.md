@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+![Tracker Img](https://github.com/user-attachments/assets/1d5842a1-45cf-4817-bf2a-5430d1fb48bd)🌍🔥 Wildfire Tracker
+Wildfire Tracker is a simple React app that allows you to track active wildfires across the globe. The app visualizes wildfire data by plotting it on an interactive Google Map.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is built to demonstrate how to use React with external APIs and integrate the Google Maps API.
 
-## Available Scripts
+![Tracker Img](https://github.com/user-attachments/assets/f93cf5b1-9b96-453c-becd-a5e0c1c4c81a)
 
-In the project directory, you can run:
 
-### `npm start`
+🚀 Features
+🗺️ Interactive Google Map with pan & zoom
+🔥 Real-time wildfire data visualization
+📍 Clickable markers with wildfire details (location, date, etc.)
+⚡ Fast and responsive UI built with React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🛠️ Tech Stack
+React
+Google Maps JavaScript API
+Wildfire Data API (such as NASA EONET or any other data source)
+CSS / Styled Components
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📦 Getting Started
+Prerequisites
+Node.js & npm installed on your machine
 
-### `npm test`
+A Google Maps API Key (you can get one from Google Cloud Console)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+API Keys
+You will need to add your Google Maps API key in the Map.js component and register for a NASA API key at https://api.nasa.gov. If you deploy, please move the keys to a safe place
 
-### `npm run build`
+Usage
+npm install
+npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Build
+npm run build
+or
+yarn build
