@@ -1,4 +1,4 @@
-![Tracker Img](https://github.com/user-attachments/assets/1d5842a1-45cf-4817-bf2a-5430d1fb48bd)🌍🔥 Wildfire Tracker
+Wildfire Tracker
 Wildfire Tracker is a simple React app that allows you to track active wildfires across the globe. The app visualizes wildfire data by plotting it on an interactive Google Map.
 
 This project is built to demonstrate how to use React with external APIs and integrate the Google Maps API.
@@ -31,6 +31,10 @@ Usage
 npm install
 npm start
 
+# Build
+npm run build
+or
+yarn build
 # Build
 npm run build
 or
